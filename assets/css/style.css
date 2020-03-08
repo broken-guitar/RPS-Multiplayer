@@ -1,0 +1,11 @@
+#player1-div {
+    background-color: darksalmon;
+}
+
+#player2-div {
+    background-color: rgb(122, 179, 233);
+}
+
+#game-status-column {
+    background-color: rgb(95, 231, 179);
+}
