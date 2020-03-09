@@ -16,7 +16,26 @@ var connectedRef = db.ref(".info/connected"); // built-in firebase 'special loca
 // var playersRef = db.ref("/players");
 // var chatRef = db.ref("/chat");
 
+var playerObject = {
+    playerId: "",
+    name: "",
+    state: "",
+    choice: "",
+    score: ""
+}
+
 // FUNCTIONS
+
+// called after player assignment
+function playGame(){
+
+}
+
+function assignPlayers(){
+
+}
+
+
 
 // example: check connected state
 connectedRef.on("value", function (snap) {
